@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+       <div class="cuadro">
+            <form action="../xampp/php/practica.php" method="POST" class="formulario">
+                    <label for="nombre" class="lead">Nombre:</label>
+                    <input id="nombre" name="nombre" placeholder="Nombre completo">
+                    <label for="email" class="lead" class="lead">Email:</label>
+                    <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+                    <label for="mensaje" class="lead"> Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
+                    <input id="submit" name="submit" type="submit" value="Enviar" >
+             </form>
+      </div>
+ <script src="practica.js"></script>
+
+</body>
+</html>

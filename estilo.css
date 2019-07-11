@@ -1,0 +1,56 @@
+
+.formulario{
+
+padding-left: 10px;
+border-radius: 10px;
+background: #C0C0C0;
+margin: auto;
+box-shadow: -2px 3px 25px 0px rgba(0,0,0,0.75);
+
+
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+ 
+.principal {
+    display:block;
+    margin:0 auto;
+    width:610px;
+    color: white;
+    font-family:Arial;
+}
+ 
+form {
+    margin:0 auto;
+    width:400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:37px;
+    background:#272220;
+    border-radius: 5px;
+    border:1px solid black;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+}
+ 
+#submit {
+    width:85px;
+    height:37px;
+    border:none;
+    margin-bottom: 10px;
+    padding-top:-20px;
+    margin-left:140px;
+    cursor:pointer;
+}
